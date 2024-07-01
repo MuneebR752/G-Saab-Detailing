@@ -1,0 +1,40 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/img/services/service.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.service__image img {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.experience__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.experience__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/img/services/service-contact.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
